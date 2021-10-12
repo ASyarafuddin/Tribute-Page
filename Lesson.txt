@@ -1,0 +1,68 @@
+lang attribute (global attribute: attributes that can be used with all HTML elements)
+
+- specifies the language of the element's content
+
+source:
+- https://www.w3schools.com/tags/att_global_lang.asp
+
+---------------------------------------------------------------
+
+<head> tag
+
+- container for metadata (data for HTML document)
+> Metadata is not displayed
+
+source:
+- w3school
+
+---------------------------------------------------------------
+
+<meta> inside <head>
+
+- specify character set, page description, keywords, author of the document, and viewport settings
+> used by browsers (how to display content or reload page)
+> search engines (keywords)
+> other web services
+
+- ability
+> Define keywords for search engines
+> Define a description of your web page
+> Define the author of a page
+> Setting the viewport to make your website look good on all devices
+
+- Setting the Viewport
+> width=device-width part sets the width of the page to follow the screen-width of the device
+> initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser
+
+Resource:
+- https://www.w3schools.com/tags/tag_meta.asp
+
+--------------------------------------------------------------
+
+tips on choosing font size
+
+- purpose: easy to read, increase user usability and accessibility
+
+- mobile web
+> body text at least 16px
+
+- desktop
+> text-heavy: consider using font size besar and not many variation
+> interact-heavy: more lenient on font size variation
+
+Source:
+- https://learnui.design/blog/mobile-desktop-website-font-size-guidelines.html
+- https://www.impactplus.com/blog/best-font-size-for-website
+
+----------------------------------------------------------------
+
+tips on using rem
+
+- default font-size for the browser is 16px, so 1rem=16px
+> we can modify 1rem as value we want, modify font-size property on html element (root element)
+
+- can use rem for height, width, font-size, padding, margin and so on
+> do not use rems for elements that have fixed dimensions (like 1px borders etc)
+
+Source:
+- https://mcro.tech/blog/basic-tips-to-create-responsive-website/
