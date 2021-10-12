@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 98.5vw;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/*Hero section*/
+#hero {
+    width: 100vw; /*consider the size of scroll take for desktop version*/
+    display: flex;
+    flex-direction: column;
+    background-color: #8B8B8B;
+}
+
+#hero .hero-img img{
+    display: block; /*takes the whole width, we can manipulate margin*/
+    filter: drop-shadow(-10px 0px 3px rgb(0, 0, 0, 0.5));
+    margin: 0 auto;
+}
+
+#hero .hero-img img:active{
+
+}
+
+#hero .hero-text{
+    text-align: center;
+    margin-top: 4.8vh;
+}
+
+#hero .hero-title {
+    margin-bottom: 4vh;
+}
+
+#hero .hero-title h1 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.93rem;
+    letter-spacing: 0.2px;
+    margin-bottom: 1vh;
+}
+
+#hero .hero-title h2 {
+    color: rgb(255, 255, 255, 0.8);
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+
+#hero .hero-cta a {
+    text-decoration: none;
+    letter-spacing: 0.025rem;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 9px 30px;
+    background-color: #4E4E4E;
+}
+
+#hero .hero-cta a:active {
+    background-color: #3E3E3E;
+}
+
+#hero .hero-cta{
+    margin-bottom: 40px;
+}
