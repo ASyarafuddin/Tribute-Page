@@ -89,20 +89,20 @@ img{
     margin-bottom: 6vh;
 }
 
+#memory figure {
+    margin-bottom: 5vh;
+}
+
 #memory img{
     margin-bottom: 4.8vh;
 }
 
 #memory figcaption{
-    line-height: 1.35rem;
+    line-height: 1.4rem;
     font-size: 16px;
     font-weight: 300;
     width: 78%;
     margin: 0 auto;
-}
-
-#memory figure {
-    margin-bottom: 5vh;
 }
 
 #memory .memory-cta a {
