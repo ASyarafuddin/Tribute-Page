@@ -24,7 +24,7 @@ img{
 }
 
 #hero .hero-img img{
-    display: block; /*takes the whole width, we can manipulate margin*/
+    display: block; /*takes the whole width, we can manipulate margin to center the div*/
     filter: drop-shadow(-10px 0px 3px rgb(0, 0, 0, 0.5));
     margin: 0 auto;
 }
@@ -35,20 +35,20 @@ img{
 
 #hero .hero-text{
     text-align: center;
-    margin-top: 4.8vh;
+    margin-top: 5.85vh;
 }
 
 #hero .hero-title {
-    margin-bottom: 4vh;
+    margin-bottom: 5vh;
 }
 
 #hero .hero-title h1 {
     color: #FFFFFF;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 1.93rem;
+    font-size: 26px;
+    line-height: 2rem;
     letter-spacing: 0.2px;
-    margin-bottom: 1vh;
+    margin-bottom: 1.5vh;
 }
 
 #hero .hero-title h2 {
@@ -73,5 +73,52 @@ img{
 }
 
 #hero .hero-cta{
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+}
+
+
+/*Memory section*/
+#memory{
+    margin-top: 41px;
+    text-align: center;
+}
+
+#memory .memory-title h1{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 6vh;
+}
+
+#memory img{
+    margin-bottom: 4.8vh;
+}
+
+#memory figcaption{
+    line-height: 1.35rem;
+    font-size: 16px;
+    font-weight: 300;
+    width: 78%;
+    margin: 0 auto;
+}
+
+#memory figure {
+    margin-bottom: 5vh;
+}
+
+#memory .memory-cta a {
+    text-decoration: none;
+    letter-spacing: 0.025rem;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 9px 30px;
+    background-color: #4E4E4E;
+}
+
+#memory .memory-cta a:active {
+    background-color: #3E3E3E;
+}
+
+#memory .memory-cta {
+    margin-bottom: 50px;
 }
