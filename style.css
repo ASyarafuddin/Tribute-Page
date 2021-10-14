@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap');
 
 * {
     margin: 0;
@@ -10,6 +11,7 @@
 :root{
     --heroTitleFontSize: 26px;
     --titleFontSize: 24px;
+    --section-width: 100vw;
 }
 
 img{
@@ -19,10 +21,14 @@ img{
     object-fit: cover;
 }
 
+.between-sect{
+    height: 50px;
+}
+
 
 /*Hero section*/
 #hero {
-    width: 100vw; /*consider the size of scroll take for desktop version*/
+    width: var(--section-width); /*consider the size of scroll take for desktop version*/
     display: flex;
     flex-direction: column;
     background-color: #8B8B8B;
@@ -77,10 +83,6 @@ img{
     background-color: #3E3E3E;
 }
 
-#hero .hero-cta{
-    margin-bottom: 50px;
-}
-
 
 /*Memory section*/
 #memory{
@@ -125,17 +127,13 @@ img{
     background-color: #3E3E3E;
 }
 
-#memory .memory-cta {
-    margin-bottom: 50px;
-}
-
 
 /*Contribution section*/
 #contribution {
     background-color: #DFDFDF;
     padding-top: 41px;
     text-align: justify;
-    width: 100vw;
+    width: var(--section-width);
 }
 
 #contribution .contribution-title h1 {
@@ -210,6 +208,35 @@ img{
     color: rgba(0,0,0,0.4);
 }
 
-#contribution .between-sect{
-    height: 50px;
+
+/*Quote section*/
+#quote img{
+    filter: grayscale(0.9);
+    margin-bottom: 4.8vh;
 }
+
+#quote .quote-text{
+    width: 75%;
+    margin: 0 auto 4vh;
+    text-align: center;
+}
+
+#quote .quote-text q{
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 2.4vh;
+}
+
+#quote .quote-text p{
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 300;
+    color: rgba(0,0,0,0.825);
+}
+
+#quote .quote-source p{
+    text-align: center;
+    color: rgba(0,0,0,0.4);
+}
+
