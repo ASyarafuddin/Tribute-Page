@@ -7,6 +7,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+:root{
+    --heroTitleFontSize: 26px;
+    --titleFontSize: 24px;
+}
+
 img{
     width: 98.5vw;
     width: 100vw;
@@ -45,7 +50,7 @@ img{
 #hero .hero-title h1 {
     color: #FFFFFF;
     font-weight: 400;
-    font-size: 26px;
+    font-size: var(--titleFontSize);
     line-height: 2rem;
     letter-spacing: 0.2px;
     margin-bottom: 1.5vh;
@@ -83,8 +88,8 @@ img{
     text-align: center;
 }
 
-#memory .memory-title h1{
-    font-size: 24px;
+#memory .memory-title h1 {
+    font-size: var(--titleFontSize);
     font-weight: 400;
     margin-bottom: 6vh;
 }
@@ -98,6 +103,7 @@ img{
 }
 
 #memory figcaption{
+    color: rgba(0,0,0,0.8);
     line-height: 1.4rem;
     font-size: 16px;
     font-weight: 300;
@@ -121,4 +127,89 @@ img{
 
 #memory .memory-cta {
     margin-bottom: 50px;
+}
+
+
+/*Contribution section*/
+#contribution {
+    background-color: #DFDFDF;
+    padding-top: 41px;
+    text-align: justify;
+    width: 100vw;
+}
+
+#contribution .contribution-title h1 {
+    text-align: center;
+    margin-bottom: 6vh;
+    font-size: var(--titleFontSize);
+    font-weight: 400;
+}
+
+#contribution .contribution-img img {
+    margin-bottom: 4.8vh;
+}
+
+#contribution .contribution-detail, #contribution .contribution-cta{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#contribution .contribution-item h2 {
+    margin: 0 auto 2.4vh;
+}
+
+#contribution div.contribution-item div.contribution-detail p{
+    margin: 0 auto;
+}
+
+#contribution .contribution-item .contribution-detail p:nth-of-type(1) {
+    color: rgba(0,0,0,1);
+    margin-bottom: .4rem;
+    line-height: 1.36rem;
+}
+
+#contribution .contribution-item .contribution-detail :nth-of-type(2) {
+    color: rgba(0,0,0,0.7);
+}
+
+#contribution .contribution-detail {
+    margin-bottom: 5vh;
+}
+
+#contribution .contribution-cta a {
+    text-decoration: none;
+    letter-spacing: 0.025rem;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 9px 30px;
+    background-color: #4E4E4E;
+}
+
+#contribution .contribution-cta a:active {
+    background-color: #3E3E3E;
+}
+
+#contribution .contribution-cta {
+    margin-bottom: 50px;
+}
+
+#contribution hr{
+    width: 83%;
+    margin: 75px auto 75px;
+}
+
+#contribution .contribution-link {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contrbution .contribution-link h2 {
+    font-size: 20px;
+    color: rgba(0,0,0,0.4);
+}
+
+#contribution .between-sect{
+    height: 50px;
 }
